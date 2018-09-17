@@ -1,0 +1,44 @@
+form{
+    margin-top: 20px;
+}
+h4{
+    margin-bottom: 0px;
+}
+.comment-num{
+    font-size: 16px;
+    color: #ccc;
+}
+#comments{
+    margin-top: 50px;
+}
+#textarea{
+    height: 100px; 
+}
+
+.article-row p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.status-padding{
+    padding-top: 10px;
+}
+.article-title small{
+    color: #bbb;
+}
+@media(max-width:991px){
+    .article-title{
+        padding-left: 30px;
+    }
+}
+@media(min-width:767px){
+    .article-actions{
+        float: right;
+    }
+}
+@media(max-width:767px){
+    .article-actions{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+}
